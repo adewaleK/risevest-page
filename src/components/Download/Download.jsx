@@ -16,7 +16,7 @@ const Download = () => {
             </div>
         </div>
         <div className="screen-section">
-            <img src={animatedscreen} alt="image" />
+          <img src={animatedscreen} alt="animated" />
         </div>
     </section>
   )
