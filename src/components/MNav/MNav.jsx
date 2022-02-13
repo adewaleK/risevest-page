@@ -1,8 +1,5 @@
-import MenuIcon from '@mui/icons-material/Menu';
-
 import { ArrowDownward } from '@mui/icons-material'
 import './MNav.css'
-import { useState } from 'react';
 
 const MNav = () => {
   return (
