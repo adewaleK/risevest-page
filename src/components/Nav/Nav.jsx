@@ -6,6 +6,7 @@ import Logo from '../Logo/Logo';
 import "./Nav.css";
 
 const Nav = ({handleShow}) => {
+  
   return (
     <header className='nav-box'>
         <div className="left">
@@ -22,7 +23,7 @@ const Nav = ({handleShow}) => {
                 <div className='menu-item'><p><a href="#">About Us</a></p></div>
                 <div className='menu-item'><p><a href="#">FAQs</a></p></div>
                 <div className='menu-item last-item'><p><a href="#">Blog</a></p></div>
-                <MenuIcon className='menu-icon'/>
+                <MenuIcon className='menu-icon' />
             </div>
         </nav>  
     </header>

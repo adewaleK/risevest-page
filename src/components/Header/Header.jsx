@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import Intro from '../Intro/Intro'
+import MNav from '../MNav/MNav'
 import Nav from '../Nav/Nav'
 import './Header.css'
 
@@ -13,10 +14,10 @@ const Header = () => {
   
   return (
     <header >       
-         <Nav handleShow = {handleShow} />
-         <Intro show = {show} />
-    </header>
-   
+      <Nav handleShow = {handleShow}/>
+      <MNav />
+      <Intro show = {show} />       
+    </header>   
   )
 }
 

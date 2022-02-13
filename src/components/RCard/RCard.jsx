@@ -17,7 +17,7 @@ const RCard = () => {
                 </div>
             ))
         }
-         <div className="card" className="show">
+         <div className="show">
             <div className="review-text">
                 <p>I don’t want to invest in separate stocks because I’m not a financial expert 
                     and I would rather trust my money in the hands of people like Rise who are 
