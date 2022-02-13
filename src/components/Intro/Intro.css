@@ -1,6 +1,7 @@
 
 .intro-container{
     position: relative;
+    width: 100%;
 }
 
 .main-section{
@@ -81,4 +82,35 @@
     height: 100%;
     box-shadow: 0 0 20px #d6dadd;
     border-radius: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-section{
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .brief{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brief h1{
+        font-size: 40px;
+        width: 80vw;
+        text-align: center;
+        margin-top: 100px;    
+    }
+
+    .brief p{
+        width: 85%;
+        text-align: center;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+    }
 }

@@ -9,7 +9,7 @@ const Remember = () => {
     const link = 'Start investing now'
     return (
         <section className='rem-items'>
-            <div className="rem-img"><Image image={remImg} /></div>
+            <div className="rem-img"><Image image={remImg} className="img" /></div>
             <Description title={title} body={body} link={link} />
         </section>
     )

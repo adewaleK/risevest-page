@@ -1,3 +1,5 @@
+import MenuIcon from '@mui/icons-material/Menu';
+
 import { ArrowDownward } from '@mui/icons-material';
 import React from 'react'
 import Logo from '../Logo/Logo';
@@ -20,6 +22,7 @@ const Nav = ({handleShow}) => {
                 <div className='menu-item'><p><a href="#">About Us</a></p></div>
                 <div className='menu-item'><p><a href="#">FAQs</a></p></div>
                 <div className='menu-item last-item'><p><a href="#">Blog</a></p></div>
+                <MenuIcon className='menu-icon'/>
             </div>
         </nav>  
     </header>

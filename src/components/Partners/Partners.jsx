@@ -11,10 +11,10 @@ const Partners = () => {
             <img src={Trustee} alt="trustees" />
         </div>
         <div className="trustees">
-            <img src={western} alt="trustees" />
+            <img src={western} alt="trustees" className='special'/>
         </div>
         <div className="trustees">
-            <img src={techstars} alt="trustees" />
+            <img src={techstars} alt="trustees" className='special'/>
         </div>
         <div className="trustees">
             <img src={venture} alt="trustees" />

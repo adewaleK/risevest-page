@@ -16,6 +16,10 @@
     justify-content: space-between;
 }
 
+.hidden{
+    display: none;
+}
+
 .review-text p{
     font-size: 16px;
     line-height: 24px;
@@ -39,4 +43,31 @@
     line-height: 24px;
     color: #2d2d2d;
     font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    .review-cards{
+        flex-direction: column;
+    }
+
+    .hidee{
+        display: none !important
+    }
+
+    .show{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background-color: #fff;
+        -moz-box-shadow: 0 2px 4px #d6dadd;
+        -webkit-box-shadow: 0 2px 4px #d6dadd; 
+        box-shadow: 0 2px 4px #d6dadd;
+        width: 85%;
+
+    }
+
+    .show .review-base{
+        margin-top: 100px;
+    }
+
 }

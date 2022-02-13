@@ -16,7 +16,7 @@
     -moz-box-shadow: 0 2px 4px #d6dadd;
     -webkit-box-shadow: 0 2px 4px #d6dadd; 
     box-shadow: 0 2px 4px #d6dadd;
-    height: 600px;
+    height: 620px;
 }
 
 .image-box{
@@ -76,4 +76,19 @@
 
 .content span{
     color: #919FB5;
+}
+
+@media only screen and (max-width: 600px) {
+    .cards-box{
+        flex-direction: column
+    }
+
+    .top-section{
+        width: 100%;
+    }
+
+    .card-box{
+        margin-bottom: 20px;
+    }
+
 }

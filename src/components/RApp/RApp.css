@@ -55,3 +55,32 @@
     font-weight: bold;
     margin-top: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+    .app-content{
+        flex-direction: column;
+    }
+
+    .app-img img{
+        width: 350px;
+    }
+
+    .app-text{
+        width: 90vw !important;
+        text-align: center;
+     }
+
+     .app-text h3{
+        text-align: center;
+     }
+
+     .app-text p{
+         
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+     }
+
+}

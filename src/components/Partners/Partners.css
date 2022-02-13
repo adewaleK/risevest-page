@@ -4,8 +4,22 @@
     align-items: center;
     width: 60%;
     margin: 100px auto;
+    padding: 0 20px;
 }
 
-.trustees{
-    color: green;
+
+@media only screen and (max-width: 600px) {
+    .icons-box{
+        width: 90vw !important;
+    }
+
+    .trustees img{
+        width: 45px;
+    }
+
+    .special{
+        width: 120px !important;
+    }
+
+    
 }

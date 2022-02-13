@@ -3,3 +3,10 @@
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .invest-items{
+        flex-direction: column-reverse;
+        width: 100vw !important;
+    }
+}

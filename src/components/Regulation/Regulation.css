@@ -26,3 +26,14 @@
     color: #4A5050;
     line-height: 24px;
 }
+
+@media only screen and (max-width: 600px) {
+    .title h1{
+        font-size: 35px;   
+    }
+
+    .regulation-text{
+        width: 65%;
+    }
+
+}
