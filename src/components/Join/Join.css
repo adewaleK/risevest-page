@@ -38,3 +38,34 @@
     font-weight: 600;
     padding: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .join-box{
+        flex-direction: column;
+    }
+
+    
+    .join-card{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .join-card h1{
+        text-align: center;
+        font-size: 37px;
+    
+    }
+    
+    .join-card p{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .join-img img{
+        width: 98%;
+        margin-top: 40px;
+    }
+}

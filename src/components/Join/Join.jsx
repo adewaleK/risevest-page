@@ -11,7 +11,6 @@ const Join = () => {
         <div className="join-img">
             <img src="https://risevest.com/_next/static/images/rise-community-09f0a69d1eb80c0a1b8122f8c2e32cac.png" alt="join" />
         </div>
-
     </section>
   )
 }
