@@ -1,0 +1,30 @@
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.heading h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 10px;
+    color: #40BBC3;
+    
+}
+
+.heading p{
+    width: 60%;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4A5050;
+
+}

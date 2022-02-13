@@ -1,0 +1,84 @@
+
+.intro-container{
+    position: relative;
+}
+
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+}
+
+.brief{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: -80px; 
+}
+
+.brief h1{
+    font-size: 52px;
+    color: #08888f;
+}
+
+.brief p{
+    font-size: 16px;
+    color: #4e4e4e;
+    width: 80%;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.sub-menu{
+    position: absolute;
+    left: 51%;
+    margin-bottom: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 130px;
+    margin-top: 10px;
+    border: 1px solid #f2f5f8;
+    border-top: none;
+    border-radius: 10px;
+    -moz-box-shadow: 0 2px 4px #d6dadd;
+    -webkit-box-shadow: 0 2px 4px #d6dadd; 
+    box-shadow: 0 2px 4px #d6dadd;
+   
+}
+
+.sub-menu a{
+    text-decoration: none;
+    color: #08888f;
+}
+
+.sub-menu h3{
+    margin-bottom: 15px;
+    font-style: normal;
+}
+
+.buttons{
+    margin-top: -20px;
+}
+
+.buttons img{
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;  
+}
+
+.screen-logo{
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+.screen{
+    width: 250px;  
+    height: 100%;
+    box-shadow: 0 0 20px #d6dadd;
+    border-radius: 25px;
+}

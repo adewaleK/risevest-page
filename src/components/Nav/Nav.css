@@ -1,0 +1,64 @@
+.nav-box{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    position: relative;
+    color: #08888f;
+}
+
+.logo h2{
+    font-size: 35px;
+    font-family: '';
+    
+}
+
+.logo .bob{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #08888f;
+    position: absolute;
+    top: 15px;
+    left: 55px;
+}
+
+.links{
+    display: flex;
+}
+
+.links a{
+    text-decoration: none;
+    color: #08888f;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.menu-item{
+    margin-right: 40px;
+}
+
+.align-elements{
+    display: flex;
+    align-items: center
+}
+
+.arrow-down{
+    font-size: 16px !important;
+    color: #08888f;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.links .last-item{
+    margin-right: 0;
+}
+
+.sub-menu{
+    border: 1px solid gray;
+    padding: 0 80px 0 15px;
+}

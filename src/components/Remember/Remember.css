@@ -1,0 +1,9 @@
+.rem-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rem-img{
+    margin-right: 50px;
+}

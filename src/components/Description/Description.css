@@ -1,0 +1,36 @@
+.description-box{
+    width: 40%;
+}
+
+.description-box h1{
+    color: #2D2D2D;
+    font-size: 32px;
+}
+
+.description-body{
+    width: 70%;
+    color: #4A5050;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.description-link{
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+}
+
+.description-link a{
+    text-decoration: none;
+    color: #08888f;
+    font-size: 18px;
+    line-height: 22px;  
+}
+
+.description-arrow{
+    color: #08888f;
+    cursor: pointer;
+    font-size: 18px !important;
+    margin-top: 5px;
+    margin-left: 5px;
+}

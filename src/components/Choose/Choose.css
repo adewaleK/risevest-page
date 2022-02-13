@@ -1,0 +1,9 @@
+.choose-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose-img{
+    margin-right: 50px;
+}

@@ -1,0 +1,28 @@
+.main-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 0;
+    background: linear-gradient(to right, #fdf1f9 28px, #fff 30%, #ECFEFE);
+    border: none;
+    outline: 0;
+    border: 0.1px solid #fff;
+}
+
+.title h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #2d2d2d;
+    margin-bottom: 15px;
+}
+
+.regulation-text{
+    width: 35%;
+}
+
+.regulation-text p{
+    text-align: center;
+    color: #4A5050;
+    line-height: 24px;
+}

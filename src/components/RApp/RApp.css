@@ -1,0 +1,57 @@
+.app-img img{
+    width: 400px;
+}
+
+.app-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 100px auto;
+}
+
+.app-text{
+   width: 45%;
+}
+
+.app-text h3{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    color: #2D2D2D;
+}
+
+.app-text h1{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    font-style: normal;
+    color: #2D2D2D;
+}
+
+.app-text span{
+    color: #866DC5;
+}
+
+.app-text p{
+    width: 90%;
+    color: #2D2D2D;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+}
+
+.app-text button{
+    background-color: #07969E;
+    width: 160px;
+    padding: 15px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+}

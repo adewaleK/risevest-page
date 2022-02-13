@@ -1,0 +1,40 @@
+.join-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 120px auto;
+}
+
+.join-card{
+    width: 50%;
+    color: #2d2d2d;
+}
+
+.join-card h1{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.join-card p{
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+}
+
+.join-card button{
+    margin-top: 20px;
+    border: 0;
+    outline: none;
+    width: 218px;
+    border-radius: 5px;
+    background-color: #A0DDE2;
+    cursor: pointer;
+    color: #2d2d2d;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 20px;
+}

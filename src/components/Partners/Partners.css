@@ -1,0 +1,11 @@
+.icons-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 100px auto;
+}
+
+.trustees{
+    color: green;
+}

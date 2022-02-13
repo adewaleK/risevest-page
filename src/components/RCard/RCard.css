@@ -1,0 +1,42 @@
+.review-cards{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #f6fcfc;
+    padding-bottom: 30px;
+}
+
+.card{
+    width: 345px;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review-text p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #4A5050;
+    margin-bottom: 35px;
+}
+
+.review-base{
+    display: flex;
+    align-items: center;
+}
+
+.review-base img{
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.review-base h3{
+    font-size: 16px;
+    line-height: 24px;
+    color: #2d2d2d;
+    font-weight: 600;
+}
