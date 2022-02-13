@@ -11,10 +11,6 @@ footer h3{
     color: #2D2D2D;
 }
 
-.logo{
-    
-}
-
 footer a{
     text-decoration: none;
     color: #2D2D2D;
@@ -61,6 +57,10 @@ footer p{
 @media only screen and (max-width: 600px) {
     footer{
         flex-direction: column;
+    }
+
+    .section-1{
+        margin-bottom: 20px;
     }
 
 }
