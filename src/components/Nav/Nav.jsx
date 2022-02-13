@@ -1,17 +1,13 @@
-
 import { ArrowDownward } from '@mui/icons-material';
 import React from 'react'
-
+import Logo from '../Logo/Logo';
 import "./Nav.css";
 
 const Nav = ({handleShow}) => {
   return (
     <header className='nav-box'>
         <div className="left">
-            <div className="logo">
-              <h2>rise</h2>
-              <div className='bob'></div>
-            </div>
+          <Logo bg="#08888f" color="#08888f" className="main-logo" />
         </div>
         <nav className="right">
             <div className="links">

@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.left{
+    padding: 20px 0;
+}
+
 .logo{
     position: relative;
     color: #08888f;
@@ -13,8 +17,10 @@
 
 .logo h2{
     font-size: 35px;
-    font-family: '';
-    
+}
+
+.main-logo{
+    margin-top: 50px;
 }
 
 .logo .bob{

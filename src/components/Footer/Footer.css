@@ -1,0 +1,59 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+footer h3{
+    margin-bottom: 25px;
+    color: #2D2D2D;
+}
+
+.logo{
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: #2D2D2D;
+}
+
+footer p{
+    margin-bottom: 20px;
+    color: #2D2D2D;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.section-1,
+.section-2
+{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.rise, .explore, .products, .contact{
+    flex: 1;
+}
+
+.logo{
+    margin-bottom: 17px;
+}
+
+.links-1{
+    margin-top: -10px;
+}
+
+.explore p,
+.contact p{
+    display: flex;
+    align-items: center;
+}
+
+.slant-arrow{
+    margin-left: 10px;
+    transform: rotate(-30deg);
+}

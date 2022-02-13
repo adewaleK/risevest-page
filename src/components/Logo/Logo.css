@@ -1,0 +1,15 @@
+.logo h2{
+    font-size: 35px;
+    font-family: '';
+    
+}
+
+.logo .bob{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #08888f;
+    position: absolute;
+    top: 15px;
+    left: 55px;
+}
