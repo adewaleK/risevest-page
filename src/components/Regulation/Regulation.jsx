@@ -4,7 +4,7 @@ const Regulation = () => {
   return (
     <section className='main-box'>
         <div className="title">
-            <h1>How we are <br />Regulated</h1>
+          <h1>How we are <br />Regulated</h1>
         </div>
         <div className="regulation-text">
             <p>Rise is registered and regulated both in the US and in Nigeria. 

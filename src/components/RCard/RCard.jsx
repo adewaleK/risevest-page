@@ -6,7 +6,7 @@ const RCard = () => {
     <section className='review-cards'>
         {
             cards.map(card => (
-                <div className="card" key={card.id} className="hidee">
+                <div className="card hidee" key={card.id}>
                     <div className="review-text">
                         <p>{card.desc}</p>
                     </div>

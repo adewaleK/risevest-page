@@ -7,10 +7,10 @@ const Intro = ({show}) => {
   return (
     <section className='intro-container'>
         <div className="sub-menu" style={{display: show ? 'block' : 'none'}}>
-            <h3><a href="#">Stocks</a></h3>
-            <h3><a href="#">Real Estate</a></h3>
-            <h3><a href="#">Fixed Income</a></h3>
-            <h3><a href="#">Build Wealth</a></h3>
+            <h3><a href="https://risevest.com/">Stocks</a></h3>
+            <h3><a href="https://risevest.com/">Real Estate</a></h3>
+            <h3><a href="https://risevest.com/">Fixed Income</a></h3>
+            <h3><a href="https://risevest.com/">Build Wealth</a></h3>
         </div>
         <div className='main-section'>
             <div className='brief'>

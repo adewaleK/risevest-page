@@ -4,7 +4,7 @@ const RApp = () => {
   return (
     <section className='app-content'>
         <div className="app-img">
-            <img src="https://risevest.com/_next/static/images/build-wealth-phone-aeef38e0842f062323879d6e0b2e2fc4.png" alt="" />
+            <img src="https://risevest.com/_next/static/images/build-wealth-phone-aeef38e0842f062323879d6e0b2e2fc4.png" alt="image" />
         </div>
         <div className="app-text">
             <h3>The Rise App</h3>

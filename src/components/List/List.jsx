@@ -15,7 +15,7 @@ const List = () => {
             <h1>{asset.title}</h1>
             <p>{asset.dscription}</p>
             <p><span>Historical Returns: </span>{asset.history} <span>Risk Level:</span> {asset.risk}</p>
-            <h3><a href="#">{asset.link}</a></h3>      
+            <h3><a href="https://risevest.com/">{asset.link}</a></h3>      
           </div>
        </div>
         ))}

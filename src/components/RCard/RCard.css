@@ -1,6 +1,6 @@
 .review-cards{
     display: flex;
-    width: 95%;
+    width: 90%;
     justify-content: space-between;
     margin: 0 auto;
     background-color: #f6fcfc;
@@ -8,12 +8,16 @@
 }
 
 .card{
-    width: 345px;
+    width: 320px;
     padding: 20px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; 
+    background-color: #fff;
+    -moz-box-shadow: 0 2px 4px #d6dadd;
+    -webkit-box-shadow: 0 2px 4px #d6dadd; 
+    box-shadow: 0 2px 4px #d6dadd;
 }
 
 .hidden{
@@ -45,6 +49,10 @@
     font-weight: 600;
 }
 
+.show{
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
     .review-cards{
         flex-direction: column;
@@ -63,7 +71,6 @@
         -webkit-box-shadow: 0 2px 4px #d6dadd; 
         box-shadow: 0 2px 4px #d6dadd;
         width: 85%;
-
     }
 
     .show .review-base{

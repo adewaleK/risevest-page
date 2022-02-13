@@ -8,7 +8,7 @@ const Description = ({title,body,link}) => {
         <p className='description-body'>{body}
         </p>
         <div className='description-link'>
-          <p><a href="#">{link}</a></p>
+          <button>{link}</button>
           <ArrowForward className='description-arrow'/>
         </div>
     </div>

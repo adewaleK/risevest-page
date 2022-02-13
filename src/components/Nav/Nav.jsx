@@ -14,15 +14,15 @@ const Nav = ({handleShow}) => {
         </div>
         <nav className="right">
             <div className="links">
-                <div className='menu-item'><p><a href="#">Home</a></p></div>
+                <div className='menu-item'><p><a href="https://risevest.com/">Home</a></p></div>
                 <div className='menu-item align-elements' onClick={handleShow} >
-                  <p><a href="#">Products</a></p>
+                  <p><a href="https://risevest.com/">Products</a></p>
                   <ArrowDownward className='arrow-down'/>
                 </div>
-                <div className='menu-item'><p><a href="#">Investment Club</a></p></div>
-                <div className='menu-item'><p><a href="#">About Us</a></p></div>
-                <div className='menu-item'><p><a href="#">FAQs</a></p></div>
-                <div className='menu-item last-item'><p><a href="#">Blog</a></p></div>
+                <div className='menu-item'><p><a href="https://risevest.com/">Investment Club</a></p></div>
+                <div className='menu-item'><p><a href="https://risevest.com/">About Us</a></p></div>
+                <div className='menu-item'><p><a href="https://risevest.com/">FAQs</a></p></div>
+                <div className='menu-item last-item'><p><a href="https://risevest.com/">Blog</a></p></div>
                 <MenuIcon className='menu-icon' />
             </div>
         </nav>  

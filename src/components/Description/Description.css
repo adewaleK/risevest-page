@@ -20,11 +20,13 @@
     align-items: center;
 }
 
-.description-link a{
-    text-decoration: none;
+.description-link button{
     color: #08888f;
     font-size: 18px;
     line-height: 22px;  
+    outline: none;
+    border: 0;
+    background-color: #fff;
 }
 
 .description-arrow{
